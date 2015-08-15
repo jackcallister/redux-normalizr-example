@@ -1,5 +1,6 @@
 import { normalize, Schema, arrayOf } from 'normalizr';
 
+// Schema key must match response key.
 const meal = new Schema('meals');
 const ingredient = new Schema('ingredients');
 
